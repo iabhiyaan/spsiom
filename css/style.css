@@ -1,0 +1,69 @@
+body {
+  background: url("../img/spsiom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .container {
+  background: #fff;
+  border-bottom: 10px solid #d7d7d7;
+}
+
+header p {
+  line-height: 1;
+  padding-right: 15px;
+}
+
+header .p-15 {
+  padding-right: 15px;
+}
+
+header .dropdown-menu a {
+  color: #fff;
+}
+
+#home .container {
+  padding: 0;
+}
+
+#home .container img {
+  width: 100%;
+}
+
+#main .container {
+  background: #fff;
+}
+
+#main .container .col-md-7 {
+  border-right: 1px dashed black;
+}
+
+#main .container .col-md-5 li a {
+  font-weight: bold;
+}
+
+footer p {
+  line-height: 0;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  header .col-md-7 {
+    text-align: center;
+  }
+  header .col-md-5 {
+    margin-top: 20px;
+  }
+  header .col-md-5 div.text-right,
+  header .col-md-5 p {
+    text-align: center !important;
+  }
+  #main .container .col-md-7 {
+    border-right: none;
+  }
+  footer .container .col-md-6 p {
+    text-align: center !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

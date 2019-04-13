@@ -1,0 +1,98 @@
+// Variables
+$white: #fff;
+$secondary: #d7d7d7;
+
+body {
+  background: url("../img/spsiom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  .container {
+    background: $white;
+    border-bottom: 10px solid $secondary;
+  }
+
+  p {
+    line-height: 1;
+    padding-right: 15px;
+  }
+
+  .p-15 {
+    padding-right: 15px;
+  }
+
+  .dropdown-menu {
+    a {
+      color: $white;
+    }
+  }
+}
+
+#home {
+  .container {
+    padding: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#main {
+  .container {
+    background: $white;
+    .col-md-7 {
+      border-right: 1px dashed black;
+    }
+
+    .col-md-5 {
+      li {
+        a {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  p {
+    line-height: 0;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    .col-md-7 {
+      text-align: center;
+    }
+    .col-md-5 {
+      margin-top: 20px;
+      div.text-right,
+      p {
+        text-align: center !important;
+      }
+    }
+  }
+
+  #main {
+    .container {
+      .col-md-7 {
+        border-right: none;
+      }
+    }
+  }
+
+  footer {
+      .container {
+          .col-md-6 {
+              p {
+                  text-align: center!important;
+              }
+          }
+      }
+  }
+}
